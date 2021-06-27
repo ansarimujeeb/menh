@@ -1,0 +1,25 @@
+{
+  "name": "menh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js -e js,hbs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ansarimujeeb/menh.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ansarimujeeb/menh/issues"
+  },
+  "homepage": "https://github.com/ansarimujeeb/menh#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.15"
+  }
+}
